@@ -3,32 +3,30 @@
 	margin: 0 auto;
 }
 
-
 .header{
   background-color: #141f40;
   /* width: 400px; */
   height: 100px;
-
 }
 
 .left {
 	float: left;
 	width: 150px;
 	height: 250px;
-	background: #80bfa8;
+	background-color: #80bfa8;
 }
 
 .right {
 	float: right;
 	width: 250px;
 	height: 250px;
-	background: #8c2727;	
+	background-color: #8c2727;
 }
 
 .bottom{
   /* width: 400px; */
   height: 100px;
-	background: #d98d30;
+	background-color: #d98d30;
 }
 
 .clearfix:after {
