@@ -7,4 +7,34 @@
   clear: both;
 }
 
-/* ここから書く */
+.main-content{
+  background-color: red;
+  height: 450px;
+  width: 400px;
+}
+
+.top-content{
+  background-color: #141f40;
+  height: 100px;
+}
+
+.right-content{
+  background-color: #80bfa8;
+  height: 250px;
+  width: 150px;
+  float: left;
+}
+
+.left-content{
+  background-color: #8c2727;  height: 250px;
+  width: 250px;
+  float: right;
+}
+
+.bottom-content{
+  background-color: #d98d30;
+  height: 100px;
+  /* content:" ";
+  display: block;
+  clear: both; */
+}
