@@ -48,22 +48,21 @@
 	float: right;
 	width: 250px;
 	height: 250px;
-	background-color: #8c2727;
+  background-color: #8c2727;
+  position:relative;
+}
+
+.BOXB {
+  position: absolute; top:40px; left:40px;
 }
 
 .boxB {
   box-sizing: border-box;
-  margin-left: 40px;
-  margin-right: 60px;
-  margin-top: 10px;
   width: 140px;
   height: 50px;
   border: 5px solid #fff;
   background: #ff863f;
-}
-
-.boxB:first-child {
-  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .bottom{
