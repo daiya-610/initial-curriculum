@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* clearfix用 */
 .clearfix::after {
   content: '';
   display: block;
@@ -11,6 +10,7 @@
   background-color: red;
   height: 450px;
   width: 400px;
+  margin: auto;
 }
 
 .top-content{
@@ -18,14 +18,14 @@
   height: 100px;
 }
 
-.right-content{
+.left-content{
   background-color: #80bfa8;
   height: 250px;
   width: 150px;
   float: left;
 }
 
-.left-content{
+.right-content{
   background-color: #8c2727;  height: 250px;
   width: 250px;
   float: right;
@@ -34,7 +34,4 @@
 .bottom-content{
   background-color: #d98d30;
   height: 100px;
-  /* content:" ";
-  display: block;
-  clear: both; */
 }
