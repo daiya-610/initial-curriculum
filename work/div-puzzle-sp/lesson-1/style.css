@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .wrapper {
-  width: 750px;
+  width: 50%;
 }
 
 .top {
@@ -22,8 +22,9 @@
 
 .top-square {
   background-color: #fff;
-  width: 220px;
-  height: 60px;
+  width:40%;
+	height:auto;
+	padding-bottom:10%;
   border-radius: 9px;
   float: right;
 }
@@ -38,26 +39,26 @@
 .set {
   display: flex;
   margin-top: 20px;
- }
-
-.right-square {
-  background-color: #CCCCCC;
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 9px;
-  margin-top: 20px;
-  margin-left: 30px;
 }
 
-.left-square {
+.right-square {
   background-color: #fff;
-  width: 550px;
-  height: 180px;
-  margin-top: 20px;
   margin-left: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
+  width:60%;
+  height:auto;
+  padding-bottom: 30%;
+}
+
+.left-square {
+  background-color: #CCCCCC;
+  display: block;
+  border-radius: 9px;
+  margin-left: 30px;
+  width:15%;
+  height: 30px;
+  padding-bottom: 15%;
 }
 
 .fotter {
