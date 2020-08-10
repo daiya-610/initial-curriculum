@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  align-items: center;
 }
 
 .circle {
@@ -24,9 +25,8 @@
 
 .top-square {
   background-color: #fff;
-  width:40%;
-	height:auto;
-	padding-bottom:10%;
+  width:30%;
+	height:60px;
   border-radius: 9px;
   float: right;
 }
