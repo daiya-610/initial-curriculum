@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 .wrapper {
-  width: 750px;
+  width: 60%;
+  min-width: 750px;
+  padding: 1%;
 }
 
 .top {
@@ -15,14 +17,14 @@
 
 .top-square {
   background-color: #fff;
-  width: 150px;
+  width: 20%;
   height: 60px;
   border-radius: 9px;
 }
 
 .set {
   display: flex;
-  justify-content: space-end;
+  justify-content: space-between;
 }
 
 .circle {
@@ -40,16 +42,17 @@
   background-color: #EEEEEE;
   padding: 60px 40px;
   display: flex;
-  flex-wrap: wrap; wrap;
+  flex-wrap: wrap;
 }
 
 .A {
   background-color: #fff;
-  width: 200px;
+  width: 30%;
   height: 200px;
   margin: 10px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
+  max-width: 200px;
 }
 
 .fotter {
