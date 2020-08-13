@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 .wrapper {
-  width: 60%;
-  min-width: 750px;
-  padding: 1%;
+background-color: #EEEEEE;
 }
 
 .top {
@@ -23,11 +21,6 @@
   border-radius: 9px;
 }
 
-.set {
-  display: flex;
-  justify-content: space-around;
-}
-
 .circle {
   background-color: #fff;
   width: 60px;
@@ -39,8 +32,13 @@
   margin-right: 20px;
 }
 
+.set {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .content {
-  background-color: #EEEEEE;
   padding: 60px 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
