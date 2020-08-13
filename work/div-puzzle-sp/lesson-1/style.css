@@ -1,14 +1,12 @@
 @charset "UTF-8";
 
 .wrapper {
-  width: 60%;
-  min-width: 750px;
-  padding: 1%;
+background-color: #EEEEEE;
 }
 
 .top {
   background-color: #ff1a6f;
-  height: 90px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -17,8 +15,8 @@
 
 .circle {
   background-color: #fff;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   float: left;
 }
@@ -26,22 +24,23 @@
 .top-square {
   background-color: #fff;
   width:30%;
-	height:60px;
+	height:50px;
   border-radius: 9px;
   float: right;
 }
 
 .content {
-  background-color: #EEEEEE;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding: 30px 20px;
 }
 
 .set {
   display: flex;
   margin-top: 20px;
-  padding-bottom: 20px;
+}
+
+.set:first-child {
+ margin-top: 0;
 }
 
 .right-square {
@@ -49,17 +48,17 @@
   margin-left: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  width:70%;
   height: 200px;
+  flex: 1;
+  margin-bottom: 20px;
 }
 
 .left-square {
   background-color: #CCCCCC;
   display: block;
   border-radius: 9px;
-  margin-left: 30px;
-  width:13%;
-  height: 91px;
+  width:90px;
+  height: 90px;
 }
 
 .fotter {
