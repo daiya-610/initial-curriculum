@@ -7,4 +7,70 @@
   clear: both;
 }
 
-/* ここから書く */
+.main-content{
+  height: 450px;
+  width: 400px;
+  margin: auto;
+}
+
+.top-content{
+  background-color: #141f40;
+  height: 100px;
+  position: relative;
+}
+.top-inner-box{
+  background-color: white;
+  height: 60px;
+  width: 160px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.top-inner-box li{
+  background-color: #a9004b;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.left-content{
+  background-color: #80bfa8;
+  height: 250px;
+  width: 150px;
+  float: left;
+}
+
+.right-content{
+  background-color: #8c2727;  height: 250px;
+  width: 250px;
+  float: right;
+}
+
+.right-content li{
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+ }
+
+.right-content li:first-child{
+  margin-top: 40px;
+ }
+
+.li-in-box{
+  background-color: #ff863f;
+  height: 40px;
+  width: 140px;
+}
+
+.bottom-content{
+  background-color: #d98d30;
+  height: 100px;
+}
