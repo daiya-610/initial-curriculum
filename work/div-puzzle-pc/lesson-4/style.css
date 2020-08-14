@@ -1,3 +1,48 @@
 @charset "UTF-8";
 
-/* ここから書く */
+.main-content{
+  height: 450px;
+  width: 400px;
+  margin: auto;
+}
+
+.top-content{
+  background-color: #141f40;
+  height: 100px;
+}
+.middle-content{
+  display: flex;
+}
+.left-content{
+  background-color: #80bfa8;
+  height: 250px;
+  width: 150px;
+}
+
+.right-content{
+  background-color: #8c2727;  height: 250px;
+  width: 250px;
+  display: flex;
+}
+
+.inner-left{
+  height: 150px;
+  width: 150px;
+}
+.in-lef-top{
+  background-color: #dbd400;
+  height: 50px;
+}
+.in-lef-bottom{
+  background-color: #0093b7;
+  height: 100px;
+}
+.inner-right{
+  background-color: #ff9e6b;
+  height: 150px;
+  width: 100px;
+}
+.bottom-content{
+  background-color: #d98d30;
+  height: 100px;
+}
