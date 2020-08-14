@@ -1,27 +1,24 @@
 @charset "UTF-8";
 
 .wrapper {
-  width: 2000px;
   background-color: #FFFAF0;
-  font-weight: 600;
 }
 
 .header {
   display: flex;
-  padding: 30px;
   justify-content: space-between;
+  padding: 30px;
   align-items: center;
 }
 
 .nav-list {
-  font-size: 30px;
   display: flex;
-  font-weight: lighter;
-  opacity: 0.8;
 }
 
 .nav-link {
-  margin-left: 40px;
+  margin-left: 30px;
+  color: #292929;
+  font-size: 3vh;
 }
 
 .content {
@@ -34,46 +31,41 @@
 }
 
 .pic {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.pic > li:nth-child(n + 4) {
-  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
 }
 
 .content-tittle {
   text-align: center;
-  font-size: 50px;
+  font-size: 7vh;
   color: #666;
   padding: 90px;
   opacity: 0.8;
 }
 
 .content-left {
-  width: 1500px;
+  width: 70%;
   margin: 50px;
 }
 
 .content-right {
-  width: 500px;
+  width: 30%;
   margin: 50px;
 }
 
 .tittle {
-  padding-left: 20px;
+  padding-left: 10px;
   border-left: solid 10px #FF82B2;
   display: flex;
-  font-size: 50px;
+  font-size: 6vh;
   color: #666;
-  margin: 40px;
-  opacity: 0.8;
+  margin: 20px;
 }
 
 .paragraph {
   line-height: 1.5;
-  font-size: 30px;
+  font-size: 3vh;
   color: #666;
   opacity: 0.8;
 }
@@ -86,8 +78,7 @@
 .fotter-out {
   padding: 10px;
   margin: 30px;
-  width: 300px;
-  height: 70px;
+  width: 20%;
   background-color: #5D99FF;
   border: 2px #fff;
 }
@@ -97,8 +88,7 @@
   padding: 10px;
 }
 
-.fotter-text {
-  font-size: 20px;
+.fotter-tittle {
   color: #fff;
   text-align: center;
   margin-top: 5px;
