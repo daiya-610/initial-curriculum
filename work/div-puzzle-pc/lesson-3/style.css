@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* clearfix用 */
 .clearfix::after {
   content: '';
   display: block;
@@ -18,8 +17,8 @@
   height: 100px;
   position: relative;
 }
-.top-inner-box{
-  background-color: white;
+.top-content ul{
+  background-color: #ffffff;
   height: 60px;
   width: 160px;
   position: absolute;
@@ -27,7 +26,7 @@
   right: 20px;
 }
 
-.top-inner-box li{
+.top-content li{
   background-color: #a9004b;
   height: 40px;
   width: 40px;
@@ -50,13 +49,12 @@
 }
 
 .right-content li{
-  background-color: white;
+  background-color: #ffffff;
   height: 50px;
   width: 150px;
   float: left;
-  margin-top: 5px;
-  margin-left: 40px;
-  padding: 5px;
+  margin: 5px 0 0 40px;
+  border: 5px solid #ffffff;
   box-sizing: border-box;
  }
 
