@@ -16,7 +16,7 @@ background-color: #EEEEEE;
 
 .top-square {
   background-color: #fff;
-  width: 20%;
+  width: 100px;
   height: 60px;
   border-radius: 9px;
 }
@@ -39,19 +39,18 @@ background-color: #EEEEEE;
 
 
 .content {
-  padding: 60px 50px;
+  padding: 30px 15px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .A {
   background-color: #fff;
-  width: 30%;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  margin-right: 20px;
-  margin-bottom:20px;
+  margin: 10px;
 }
 
 .fotter {
