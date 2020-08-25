@@ -8,3 +8,34 @@
 }
 
 /* ここから書く */
+
+.body{
+
+}
+.box{
+  width: 400px;
+  height: 450px;
+  
+}
+  .top{
+    background-color: #141f40;
+    height: 100px;
+    width: 400px;
+  }
+  .left{
+    background-color: #80bfa8;
+    height: 250px;
+    width: 150px;
+    float: left;
+  }
+  .right{
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    float: left;
+  }
+  .bottom{
+    background-color: #d98d30;
+    height: 100px;
+    width: 400px;
+  }

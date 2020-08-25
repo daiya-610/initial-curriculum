@@ -9,26 +9,43 @@
 
 /* ここから書く */
 
-  
-  h1{
+
+body{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box{
+  width: 400px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto; 
+}
+
+  .top{
     background-color: #141f40;
-    width: 400px;
+    /* width: 400px; */
     height: 100px;
   }
-  p1{
+  .left{
     background-color:#80bfa8;
     width: 150px;
     height: 250px;
     float: left;
   }
-  p2{
+  .right{
     background-color:#8c2727;
     width: 250px;
     height: 250px;
-    float: left;
+    float: right;
   }
-  h2{
+  .bottom{
     background-color: #d98d30;
-    width: 400px;
+    /* width: 400px; */
     height: 100px;
   }
