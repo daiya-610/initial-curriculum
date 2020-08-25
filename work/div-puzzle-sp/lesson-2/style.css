@@ -6,7 +6,7 @@ background-color: #EEEEEE;
 
 .top {
   background-color: #ff8c00;
-  height: 90px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -17,14 +17,14 @@ background-color: #EEEEEE;
 .top-square {
   background-color: #fff;
   width: 100px;
-  height: 60px;
+  height: 40px;
   border-radius: 9px;
 }
 
 .circle {
   background-color: #fff;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -39,18 +39,18 @@ background-color: #EEEEEE;
 
 
 .content {
-  padding: 30px 15px;
   display: flex;
   flex-wrap: wrap;
+  padding: 30px 20px;
 }
 
 .A {
   background-color: #fff;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .fotter {
