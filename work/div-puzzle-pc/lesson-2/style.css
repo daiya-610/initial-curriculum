@@ -2,9 +2,61 @@
 
 /* clearfix用 */
 .clearfix::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
 
 /* ここから書く */
+.wrapper {
+  margin: 0 auto;
+  width: 400px;
+}
+.top {
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+.center-left {
+  width: 150px;
+  height: 250px;
+  float: left;
+  background-color: #80dfa8;
+}
+.center-wrapper {
+  float: left;
+  width: 250px;
+  height: 150px;
+  background-color: #aaa;
+}
+.inner-wrapper {
+  float: left;
+}
+.yellow {
+  width: 150px;
+  height: 50px;
+  float: left;
+  background-color: #dbd400;
+}
+.blue {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+.orange {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background-color: #ff9e6b;
+}
+.red {
+  width: 250px;
+  height: 100px;
+  float: left;
+  background-color: #8c2727;
+}
+.bottom {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
