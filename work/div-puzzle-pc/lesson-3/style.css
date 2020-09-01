@@ -2,9 +2,90 @@
 
 /* clearfix用 */
 .clearfix::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
 
 /* ここから書く */
+.wrapper {
+  margin: 0 auto;
+  width: 400px;
+}
+.top {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+
+.top-list {
+  position: absolute;
+  background-color: #fff;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+}
+.top-left {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-color: #a9004b;
+}
+.top-center {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 10px;
+  background-color: #a9004b;
+}
+.top-right {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 10px;
+  background-color: #a9004b;
+}
+.center-left {
+  width: 150px;
+  height: 250px;
+  float: left;
+  background-color: #80bfa8;
+}
+.center-right {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  float: left;
+  background-color: #8c2727;
+}
+.center-list {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.inner-top {
+  width: 140px;
+  height: 40px;
+  background-color: #ff863f;
+  border: 5px solid #fff;
+}
+.inner-middle {
+  width: 140px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: #ff863f;
+  border: 5px solid #fff;
+}
+.inner-bottom {
+  width: 140px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: #ff863f;
+  border: 5px solid #fff;
+}
+.bottom {
+  background-color: #d98d30;
+  width: 400px;
+  height: 100px;
+}
