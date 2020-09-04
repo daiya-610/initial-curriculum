@@ -23,7 +23,6 @@
   top: 20px;
   right: 20px;
   padding: 10px;
-  padding-left: 0;
 }
 
 .top-inner-cantent{
@@ -32,6 +31,10 @@
   width: 40px;
   float: left;
   margin-left: 10px;
+}
+
+.top-inner-cantent:first-child{
+  margin-left: 0px;
 }
 
 .left-content{
