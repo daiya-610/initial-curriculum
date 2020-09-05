@@ -8,3 +8,32 @@
 }
 
 /* ここから書く */
+
+.wanna {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.one {
+  background-color: #141f40;
+  height: 100px;
+}
+
+.exo {
+  background-color: #80bfa8;
+  width: 150px;
+  height: 250px;
+  float: left;
+}
+
+.pm {
+  background-color: #8c2727;
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.am {
+  background-color: #d98d30;
+  height: 100px;
+}
