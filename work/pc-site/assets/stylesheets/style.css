@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
-.wrapper {
-  background-color: #FFFAF0;
-}
-
 .header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  padding: 0 20px;
   align-items: center;
+  height: 80px;
+  background-color: #FFFAF0;
+  width: 100%;
 }
 
 .nav-list {
@@ -21,19 +21,27 @@
   font-size: 3vh;
 }
 
-.content {
+.nav-link :first-child {
+  margin-left: 0px;
+}
+
+.main {
   background-color: #FAEBD7;
 }
 
-.A {
+.content {
   display: flex;
   justify-content: space-around;
 }
 
 .pic {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pic-list{
+  margin-bottom: 10px;
 }
 
 .content-tittle {
@@ -60,7 +68,7 @@
   display: flex;
   font-size: 6vh;
   color: #666;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .paragraph {
@@ -73,12 +81,13 @@
 .fotter {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .fotter-out {
   padding: 10px;
-  margin: 30px;
-  width: 20%;
+  margin-bottom: 30px;
+  width: 200px;
   background-color: #5D99FF;
   border: 2px #fff;
 }
@@ -91,6 +100,5 @@
 .fotter-tittle {
   color: #fff;
   text-align: center;
-  margin-top: 5px;
   opacity: 0.8;
 }
