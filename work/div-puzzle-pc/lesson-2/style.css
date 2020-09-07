@@ -21,9 +21,9 @@
   width: 150px;
   height: 250px;
   float: left;
-  background-color: #80dfa8;
+  background-color: #80bfa8;
 }
-.center-wrapper {
+.center-right {
   float: left;
   width: 250px;
   height: 150px;
@@ -35,12 +35,13 @@
 .yellow {
   width: 150px;
   height: 50px;
-  float: left;
+
   background-color: #dbd400;
 }
 .blue {
   width: 150px;
   height: 100px;
+
   background-color: #0093b7;
 }
 .orange {
