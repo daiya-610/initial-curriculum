@@ -9,32 +9,32 @@
 
 /* ここから書く */
 
-.main{
+/* .main{
   width: 100vw;
   height: 100vh;
-}
-.box{
+} */
+.box {
   width: 400px;
   height: 450px;
   margin: auto;
 }
-.top{
+.top {
   background-color: #141f40;
   height: 100px;
 }
-.left{
+.left {
   background-color:#80bfa8;
   width: 150px;
   height: 250px;
   float: left;
 }
-.right{
+.right {
   background-color:#8c2727;
   width: 250px;
   height: 250px;
   float: right;
 }
-.bottom{
+.bottom {
   background-color: #d98d30;
   height: 100px;
 }

@@ -9,33 +9,47 @@
 
 /* ここから書く */
 
-.body{
-
+.body {
 }
-.box{
+
+.box {
   width: 400px;
   height: 450px;
-  
 }
-  .top{
-    background-color: #141f40;
-    height: 100px;
-    width: 400px;
-  }
-  .left{
-    background-color: #80bfa8;
-    height: 250px;
-    width: 150px;
-    float: left;
-  }
-  .right{
-    background-color: red;
-    height: 250px;
-    width: 250px;
-    float: left;
-  }
-  .bottom{
-    background-color: #d98d30;
-    height: 100px;
-    width: 400px;
-  }
+.top {
+  background-color: #141f40;
+  height: 100px;
+  width: 400px;
+}
+.left {
+  background-color: #80bfa8;
+  height: 250px;
+  width: 150px;
+  float: left;
+}
+.right-box {
+  background-color: #ff9e6b;
+  height: 250px;
+  width: 250px;
+  float: right;
+}
+.right-top {
+  background-color: #bdb400;
+  height: 50px;
+  width: 150px;
+}
+.right-center {
+  background-color: #0093b7;
+  height: 100px;
+  width: 150px;
+}
+.right-bottom {
+  background-color: #8c2727;
+  height: 100px;
+  width: 250px;
+}
+.bottom {
+  background-color: #d98d30;
+  height: 100px;
+  width: 400px;
+}
